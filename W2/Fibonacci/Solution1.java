@@ -1,4 +1,4 @@
-public class Solution {
+public class Solution1 {
     public long fibonacci(long n) {
         if (n <= 1) {
             return n;
@@ -13,7 +13,7 @@ public class Solution {
         }
     }
     public static void main(String[] args) {
-        Solution sol = new Solution();
+        Solution1 sol = new Solution1();
         long n = 100;
         Long res = sol.fibonacci(n); 
         if (res > Long.MAX_VALUE)  {

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Solution {
+public class Solution6 {
     public long sumOfDigits(long n) {
         long sum = 0;
         while (n > 0) {
@@ -10,7 +10,7 @@ public class Solution {
         return sum;
     }
     public static void main(String[] args) {
-        Solution sol = new Solution();
+        Solution6 sol = new Solution6();
         Scanner scanner = new Scanner(System.in);
         long n = scanner.nextLong();
         System.out.println(sol.sumOfDigits(n));

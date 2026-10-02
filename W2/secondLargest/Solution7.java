@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Solution {
+public class Solution7 {
     public int secondLargest(int[] arr) {
         int len = arr.length;
         int max = arr[0];
@@ -16,7 +16,7 @@ public class Solution {
         return secondMax;
     }
     public static void main(String[] args) {
-        Solution sol = new Solution();
+        Solution7 sol = new Solution7();
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         int arr[] = new int[n];

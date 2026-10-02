@@ -1,4 +1,4 @@
-public class Solution {
+public class Solution3 {
     public boolean isPrime(int n) {
         if (n <= 1) {
             return false;
@@ -11,7 +11,7 @@ public class Solution {
         return true;
     }
     public static void main(String[] args) {
-        Solution sol = new Solution();
+        Solution3 sol = new Solution3();
         int num = 20;
         System.out.println(num + " is prime : " + sol.isPrime(num));
     }

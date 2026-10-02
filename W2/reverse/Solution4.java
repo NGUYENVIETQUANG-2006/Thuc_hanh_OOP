@@ -1,4 +1,4 @@
-public class Solution {
+public class Solution4 {
     public int reverse(int n) {
         if (n > Integer.MAX_VALUE || n < Integer.MIN_VALUE) {
             return 0;
@@ -12,7 +12,7 @@ public class Solution {
         return rev;
     }
     public static void main(String[] args) {
-        Solution sol = new Solution();
+        Solution4 sol = new Solution4();
         int n = 1234500;
         System.out.println(sol.reverse(n));
     }
