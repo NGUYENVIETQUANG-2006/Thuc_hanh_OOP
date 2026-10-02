@@ -1,8 +1,10 @@
+import java.util.Scanner;
+
 public class Solution {
     public int secondLargest(int[] arr) {
         int len = arr.length;
         int max = arr[0];
-        int secondMax = -1;
+        int secondMax = Integer.MIN_VALUE;
         for(int i = 1; i < len; i++) {
             if (arr[i] > max) {
                 secondMax = max;
@@ -15,7 +17,12 @@ public class Solution {
     }
     public static void main(String[] args) {
         Solution sol = new Solution();
-        int[] arr = {5, 21, 43, 2, 9, 32, 45};
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        int arr[] = new int[n];
+        for(int i = 0; i < n; i++) {
+            arr[i] = scanner.nextInt();
+        }
         System.out.println(sol.secondLargest(arr));
     }
 }
